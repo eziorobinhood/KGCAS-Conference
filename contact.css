@@ -1,16 +1,9 @@
 .header-menu{
-    top: 0px;
     float: left;
     width: 100%;
-
     position: fixed;
+    top: 0px;
     background-color: white;
-}
-
-
-.navbar-kg{
-    height: 500px;
-
 }
 
 .header-menu img{
@@ -19,6 +12,17 @@
     width: 100px;
 }
 
+
+.navbar-kg{
+    height: 500px;
+
+}
+
+.navbar-kg h5{
+    float: left;
+    padding: 10px;
+    color: black;
+}
 .navbar-kg ul{
     float: right;
     padding: 10px;
@@ -29,6 +33,7 @@
     list-style-type: none;
     padding: 10px;
 }
+
 .navbar-kg li a{
     float: left;
     text-decoration: none;
@@ -49,15 +54,10 @@
     transition-duration: 0.5s;
 }
 
-.conference-details{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
 .navbar-kg{
     float: left;
     width: 100%;
-    background-image: url("/images/header-bg.jpg");
+    background-image: url("/images/keynote.jpg");
     background-attachment: fixed;
         background-size: cover;
 }
@@ -77,34 +77,6 @@
     color: white;
 }
 
-.submission{
-    padding: 35px;
-    margin: 20px;
-    float: left;
-    width: 28%;
-    height: 150px;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    box-shadow: 0px 0px 10px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.submission h5{
-    font-weight: 500;
-}
-
-.about-conference{
-    width: 100%;
-    float: left;
-    
-    text-align: justify;
-}
-
-.about-conference p{
-    font-weight: 500;
-    line-height:30px;
-    padding: 40px;
+.about-conference h5{
+    line-height: 40px;
 }
